@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -15,13 +14,12 @@ public class GWD {
 
     public static WebDriver driver;
 
-    public static WebDriverWait wait;
-
     public static WebDriver getDriver()
     {
        if (driver == null) {
 
            Logger.getLogger("").setLevel(Level.SEVERE);
+           System.setProperty(org.slf4j.impl.SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "Error");
            System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
 
 
