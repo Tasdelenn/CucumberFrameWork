@@ -11,6 +11,8 @@ public class DialogContent extends Parent{
         PageFactory.initElements(GWD.getDriver(), this);
     }
 
+
+
     @FindBy(id="mat-input-0")
     private WebElement username;
 
@@ -23,6 +25,31 @@ public class DialogContent extends Parent{
     @FindBy(xpath="(//span[contains(text(),'Dashboard')])[2]")
     private WebElement dashboard;
 
+    @FindBy(xpath="//ms-add-button[contains(@tooltip,'TITLE.ADD')]//button")
+    private WebElement addButton;
+
+    @FindBy(xpath="//ms-text-field[@formcontrolname='name']//input")
+    private WebElement nameInput;
+
+    @FindBy(xpath="//ms-text-field[@formcontrolname='code']//input")
+    private WebElement codeInput;
+
+    @FindBy(xpath="//ms-save-button//button")
+    private WebElement saveButton;
+
+    @FindBy(xpath = "//div[contains(text(),'successfully')]")
+    private WebElement successMessage;
+
+    @FindBy(xpath = "//ms-text-field[@formcontrolname='shortName']//input")
+    private WebElement shortName;
+
+    @FindBy(xpath = "//div[contains(text(),'already exists')]")
+    private WebElement alreadyExist;
+
+    @FindBy(xpath = "//button[@aria-label='Close dialog']")
+    private WebElement closeDialog;
+
+
     WebElement myElement;
     public void findAndSend(String strElement, String value){  // 2.aşama
         // burda string isimden weblemente ulaşıcam
@@ -30,6 +57,9 @@ public class DialogContent extends Parent{
         {
             case "username" : myElement =username; break;
             case "password" : myElement =password; break;
+            case "nameInput" : myElement =nameInput; break;
+            case "codeInput" : myElement =codeInput; break;
+            case "shortName" : myElement =shortName; break;
         }
 
         sendKeysFunction(myElement, value);
@@ -40,6 +70,9 @@ public class DialogContent extends Parent{
         switch (strElement)
         {
             case "loginButton" : myElement =loginButton; break;
+            case "addButton" : myElement =addButton; break;
+            case "saveButton" : myElement =saveButton; break;
+            case "closeDialog" : myElement =closeDialog; break;
         }
 
         clickFunction(myElement);
@@ -50,6 +83,8 @@ public class DialogContent extends Parent{
         switch (strElement)
         {
             case "dashboard" : myElement =dashboard; break;
+            case "successMessage" : myElement =successMessage; break;
+            case "alreadyExist" : myElement =alreadyExist; break;
         }
 
         verifyContainsText(myElement,text);
