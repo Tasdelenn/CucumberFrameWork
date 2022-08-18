@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0dbfa12-d233-4aaa-886b-85c0802bd0af" name="Changes" comment="Cucumber FrameWork">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_02_Country.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e0dbfa12-d233-4aaa-886b-85c0802bd0af" name="Changes" comment="site uName pWord">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_01_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_01_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_CountrySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_CountrySteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/GitArea/Cucumber_Kursu3/src/test/java/FeatureFiles",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.28275862",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/GitArea/Cucumber_Kursu3/src/test/java/FeatureFiles&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28275862&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitArea\Cucumber_Kursu3\src\test\java\FeatureFiles" />
@@ -60,7 +52,7 @@
       <recent name="E:\GitArea\Cucumber_Kursu3\src\test\java\StepDefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: _01_Login">
+  <component name="RunManager" selected="Cucumber Java.Feature: _02_Country">
     <configuration name="Feature: _01_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_01_Login.feature" />
@@ -121,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: _01_Login" />
         <item itemvalue="Cucumber Java.Feature: _02_Country" />
+        <item itemvalue="Cucumber Java.Feature: _01_Login" />
         <item itemvalue="Cucumber Java.Scenario: Login with valid username and password" />
       </list>
     </recent_temporary>
@@ -143,7 +135,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660746419192</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cucumber FrameWork II">
+      <created>1660768267431</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660768267431</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cucumber FrameWork II">
+      <created>1660768289863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660768289863</updated>
+    </task>
+    <task id="LOCAL-00004" summary="site uName pWord">
+      <created>1660830521459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660830521459</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +172,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cucumber FrameWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber FrameWork" />
+    <MESSAGE value="Cucumber FrameWork II" />
+    <MESSAGE value="site uName pWord" />
+    <option name="LAST_COMMIT_MESSAGE" value="site uName pWord" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
