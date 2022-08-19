@@ -21,8 +21,8 @@ public class _02_CountrySteps {
     @When("Create a country")
     public void createACountry() {
         dc.findAndClick("addButton");
-        dc.findAndSend("nameInput", "ulke1");
-        dc.findAndSend("codeInput", "11");
+        dc.findAndSend("nameInput", "UlkeFooBarX2");
+        dc.findAndSend("codeInput", "13572462");
         dc.findAndClick("saveButton");
     }
 

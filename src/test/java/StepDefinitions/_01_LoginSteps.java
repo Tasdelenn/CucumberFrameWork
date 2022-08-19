@@ -19,6 +19,7 @@ public class _01_LoginSteps {
     public void navigateToBasqar() {
         GWD.getDriver().get("https://demo.mersys.io/");
         GWD.getDriver().manage().window().maximize();
+        dc.findAndClick("acceptAllCookiesButton");
     }
 
     @When("Enter username and password and click login button")

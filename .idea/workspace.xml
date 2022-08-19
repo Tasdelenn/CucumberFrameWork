@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0dbfa12-d233-4aaa-886b-85c0802bd0af" name="Changes" comment="CountrySteps'te leftNav ve Dialog content nesnesi tanımladık (ln ve dc). create Country yaptık.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultiple.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_SenaryoOutlineCitizenShip.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_CitizenshipSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_02_Country.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_02_Country.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_CountrySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_CountrySteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,14 +93,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: _03_CountryMultiple" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: _04_SenaryoOutlineCitizenShip" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultiple.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_SenaryoOutlineCitizenShip.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber_Kursu3" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: _03_CountryMultiple" />
+      <option name="SUGGESTED_NAME" value="Feature: _04_SenaryoOutlineCitizenShip" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -116,14 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: _04_SenaryoOutlineCitizenShip" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Create a Country" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_SenaryoOutlineCitizenShip.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultiple.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber_Kursu3" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: _04_SenaryoOutlineCitizenShip" />
+      <option name="NAME_FILTER" value="^Create a Country$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create a Country$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create a Country" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -158,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: _04_SenaryoOutlineCitizenShip" />
-        <item itemvalue="Cucumber Java.Scenario: Create a country" />
+        <item itemvalue="Cucumber Java.Scenario: Create a Country" />
         <item itemvalue="Cucumber Java.Feature: _02_Country" />
-        <item itemvalue="Cucumber Java.Feature: _03_CountryMultiple" />
         <item itemvalue="Cucumber Java.Feature: _01_Login" />
+        <item itemvalue="Cucumber Java.Scenario: Create a country" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660839366533</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CountrySteps'te leftNav ve Dialog content nesnesi tanımladık (ln ve dc). create Country yaptık.">
+      <created>1660850406142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660850406142</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

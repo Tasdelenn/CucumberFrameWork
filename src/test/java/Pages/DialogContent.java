@@ -11,7 +11,8 @@ public class DialogContent extends Parent{
         PageFactory.initElements(GWD.getDriver(), this);
     }
 
-
+    @FindBy(xpath="//button[.='Accept all cookies']")
+    private WebElement acceptAllCookiesButton;
 
     @FindBy(id="mat-input-0")
     private WebElement username;
@@ -70,6 +71,7 @@ public class DialogContent extends Parent{
         switch (strElement)
         {
             case "loginButton" : myElement =loginButton; break;
+            case "acceptAllCookiesButton" : myElement = acceptAllCookiesButton; break;
             case "addButton" : myElement =addButton; break;
             case "saveButton" : myElement =saveButton; break;
             case "closeDialog" : myElement =closeDialog; break;
