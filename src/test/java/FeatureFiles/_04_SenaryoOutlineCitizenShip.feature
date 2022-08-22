@@ -14,6 +14,11 @@ Feature:  Citizenship with scenario Outline
     Then Already exist message should be displayed
     And Click on close button
 
+    When User delete the "<CitizenshipName>"
+    Then Success message should be displayed
+
+
+
     Examples:
       | CitizenshipName | ShortName |
       | vatan01         | das01     |

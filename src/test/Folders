@@ -15,3 +15,18 @@
 
         Properties ayar (ByteCode)
 
+        [20:00] Ozan Can Kudu: @FindBy(css = "placeholder='GENERAL.FIELD.NAME']")
+            private WebElement fieldName;
+        [20:01] Musab Sinan Haciboncuk: @FindBy(id = "ms-text-field-0")
+            private WebElement searchInput;
+        [20:01] Hüseyin.SEVER: ortaatn
+            [20:01] Vasif Zeynalov: //ms-text-field[contains(@placeholder,'FIELD.NAME')]//input
+        [20:01] Hüseyin.SEVER: ortaktan gidin
+        [20:02] Selman Tanış: .search-container button
+        [20:02] Vasif Zeynalov: //*[text()='Search']
+        [20:02] Fehim Hakan SAYDAM: //ms-search-button//button
+        [20:02] Ozan Can Kudu: //span[.='Search']
+        [20:03] Fehim Hakan SAYDAM: //ms-delete-button//button
+        [20:03] Fehim Hakan SAYDAM: //span[contains(text(),'Delete')]
+        [20:04] Hakan Taşdelen: inputs
+
