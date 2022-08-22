@@ -1,7 +1,7 @@
 package Pages;
 
 import Utilities.GWD;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -18,7 +18,6 @@ public class DialogContent extends Parent{
 
     @FindBy(xpath="//button[.='Accept all cookies']")
     private WebElement acceptAllCookiesButton;
-
     @FindBy(id="mat-input-0")
     private WebElement username;
 
@@ -55,7 +54,6 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//button[@aria-label='Close dialog']")
     private WebElement closeDialog;
 
-    /****SearchAndDelete*******/
     @FindBy(xpath = "//ms-text-field[contains(@placeholder,'FIELD.NAME')]//input")
     private WebElement searchInput;
 
@@ -68,7 +66,6 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//span[contains(text(),'Delete')]")
     private WebElement deleteDialogBtn;
 
-
     WebElement myElement;
     public void findAndSend(String strElement, String value){  // 2.aşama
         // burda string isimden weblemente ulaşıcam
@@ -79,6 +76,7 @@ public class DialogContent extends Parent{
             case "nameInput" : myElement =nameInput; break;
             case "codeInput" : myElement =codeInput; break;
             case "shortName" : myElement =shortName; break;
+            case "searchInput" : myElement =searchInput; break;
         }
 
         sendKeysFunction(myElement, value);
@@ -96,7 +94,6 @@ public class DialogContent extends Parent{
             case "searchButton" : myElement =searchButton; break;
             case "deleteButton" : myElement =deleteButton; break;
             case "deleteDialogBtn" : myElement =deleteDialogBtn; break;
-
         }
 
         clickFunction(myElement);
@@ -114,28 +111,28 @@ public class DialogContent extends Parent{
         verifyContainsText(myElement,text);
     }
 
-    public void searchAndDelete(String searchText){
 
-        //arama kutucuğuna kelimeyi yaz
-        findAndSend("searchInput", searchText);
+    public void SearchAndDelete(String searchText){
+        findAndSend("searchInput", searchText); // aranacak kelimeyi kutucuğa gönder
+        findAndClick("searchButton"); // arama butonuna bas
 
-        //arama butonuna bas
-        findAndClick("searchButton");
+//        WebDriverWait wait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(10));
+//        wait.until(ExpectedConditions.stalenessOf(deleteButton));
 
-        //WebDriverWait wait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(30));
-        //wait.until(ExpectedConditions.stalenessOf(deleteDialogButton));
-
-        GWD.Bekle(2); // TODO İNCELENECEK
-
-
-        //silme butonuna bas
-        findAndClick("deleteButton");
-
-        //dialogdaki silme butonuna bas
-        findAndClick("deleteDialogBtn");
-
-
+        GWD.Bekle(2); // TODO: incelenecek
+        findAndClick("deleteButton");// silme butonua bas
+        findAndClick("deleteDialogBtn");// dilogdaki silme butonuna bas
     }
+
+
+
+
+
+
+
+
+
+
 
 
 

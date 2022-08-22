@@ -17,8 +17,6 @@ Feature:  Citizenship with scenario Outline
     When User delete the "<CitizenshipName>"
     Then Success message should be displayed
 
-
-
     Examples:
       | CitizenshipName | ShortName |
       | vatan01         | das01     |
