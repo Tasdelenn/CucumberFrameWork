@@ -38,4 +38,13 @@ public class _05_DatatableSteps {
 
 
     }
+
+    @And("User sending the keys in Dialog content")
+    public void userSendingTheKeysInDialogContent(DataTable elements) {
+        List<List<String>> listElements = elements.asLists(String.class);
+
+        for (int i=0; i< listElements.size(); i++)
+            dc.findAndSend(listElements.get(i).get(0), listElements.get(i).get(1));
+        // listin ilk elemanına (web elemanı)
+    }
 }

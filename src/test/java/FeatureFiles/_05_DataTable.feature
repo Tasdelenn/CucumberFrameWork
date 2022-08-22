@@ -21,3 +21,7 @@ Feature: Login Functionality
 
       And Click ın the element in the Dialog
       | addButton |
+
+      And User sending the keys in Dialog content
+        | nameInput | HakanCountry1 |
+        | codeInput | 12358132134   |
