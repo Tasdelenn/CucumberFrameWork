@@ -126,19 +126,17 @@ public class DialogContent extends Parent{
 //        WebDriverWait wait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(10));
 //        wait.until(ExpectedConditions.stalenessOf(deleteButton));
 
-        GWD.Bekle(2); // TODO: incelenecek
+        waitUntilLoading();
+
+        //GWD.Bekle(2); // TODO: incelenecek // waitUntilLoading metodu oluşturuldu ve Parente alındı
         findAndClick("deleteButton");// silme butonua bas
         findAndClick("deleteDialogBtn");// dilogdaki silme butonuna bas
     }
 
-
-
-
-
-
-
-
-
+    public void waitUntilLoading() {
+        WebDriverWait wait=new WebDriverWait(GWD.driver, Duration.ofSeconds(30));
+        wait.until(ExpectedConditions.numberOfElementsToBe(By.cssSelector("fuse-progress-bar > *"), 0));
+    }
 
 
 
