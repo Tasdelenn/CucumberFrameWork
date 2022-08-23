@@ -66,6 +66,12 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//span[contains(text(),'Delete')]")
     private WebElement deleteDialogBtn;
 
+    //Gerekirse Kullanmak İçin
+    @FindBy(xpath = "//ms-text-field[@formcontrolname='budgetAccountIntegrationCode']/input")
+    private WebElement integrationCodeInput;
+    @FindBy(xpath = "//ms-integer-field[@formcontrolname='priority']/input")
+    private WebElement priority;
+
     WebElement myElement;
     public void findAndSend(String strElement, String value){  // 2.aşama
         // burda string isimden weblemente ulaşıcam
@@ -77,6 +83,7 @@ public class DialogContent extends Parent{
             case "codeInput" : myElement =codeInput; break;
             case "shortName" : myElement =shortName; break;
             case "searchInput" : myElement =searchInput; break;
+            case "priority" : myElement =priority; break;
         }
 
         sendKeysFunction(myElement, value);

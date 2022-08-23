@@ -50,8 +50,33 @@ Feature: Datatable Functionality
 
     And Success message should be displayed
 
-  Scenario: Create a Fee, delete Fee
 
     #    Senaryo Outline da verilen değerler için tüm senaryo her satır kadar tekrar çalıştırılıyordu.
     #    DataTable da ise, sadece ilgili step için toplu veri gönderme imkanı oluşuyor.
+
+
+  Scenario: Create a Fee, delete Fee
+
+    And Click on the element in the left Nav
+      | setupOne   |
+      | parameters |
+      | fees       |
+
+    And Click on the element in the Dialog
+      | addButton |
+
+    And User sending the keys in Dialog content
+      | nameInput | fee000      |
+      | codeInput | f1357908642 |
+      | priority  | 49          |
+
+    And Click on the element in the Dialog
+      | saveButton |
+
+    And Success message should be displayed
+
+    And User delete item from Dialog
+      | fee000 |
+
+    And Success message should be displayed
 
