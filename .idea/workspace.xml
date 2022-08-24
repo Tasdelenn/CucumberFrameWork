@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0dbfa12-d233-4aaa-886b-85c0802bd0af" name="Changes" comment="DataTable list(list)) 2D">
+    <list default="true" id="e0dbfa12-d233-4aaa-886b-85c0802bd0af" name="Changes" comment="waitUntilLoading fuction Parentte">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_06_EntranceExam.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/FormContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_SenaryoOutlineCitizenShip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_SenaryoOutlineCitizenShip.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_05_DataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_05_DataTable.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_CountrySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_CountrySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_CitizenshipSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_CitizenshipSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_05_DatatableSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_05_DatatableSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/GitArea/Cucumber_Kursu3/src/test/java/FeatureFiles",
+    "last_opened_file_path": "E:/GitArea/Cucumber_Kursu3/src/test/java/StepDefinitions",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.28275862",
@@ -53,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitArea\Cucumber_Kursu3\src\test\java\StepDefinitions" />
       <recent name="E:\GitArea\Cucumber_Kursu3\src\test\java\FeatureFiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -61,7 +61,7 @@
       <recent name="E:\GitArea\Cucumber_Kursu3\src\test\java\FeatureFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: _05_DataTable">
+  <component name="RunManager" selected="Cucumber Java.Feature: _06_EntranceExam">
     <configuration name="Feature: _03_CountryMultipleScenarios" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultipleScenarios.feature" />
@@ -119,15 +119,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Create a Country" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: _06_EntranceExam" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultiple.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_06_EntranceExam.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cucumber_Kursu3" />
-      <option name="NAME_FILTER" value="^Create a Country$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create a Country$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Create a Country" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: _06_EntranceExam" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: _06_EntranceExam" />
         <item itemvalue="Cucumber Java.Feature: _05_DataTable" />
         <item itemvalue="Cucumber Java.Scenario: Create a Nationality" />
         <item itemvalue="Cucumber Java.Feature: _04_SenaryoOutlineCitizenShip" />
         <item itemvalue="Cucumber Java.Feature: _03_CountryMultipleScenarios" />
-        <item itemvalue="Cucumber Java.Scenario: Create a Country" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +271,8 @@
     <MESSAGE value="DataTable" />
     <MESSAGE value="DataTable Dialog Content" />
     <MESSAGE value="DataTable list(list)) 2D" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataTable list(list)) 2D" />
+    <MESSAGE value="waitUntilLoading fuction Parentte" />
+    <option name="LAST_COMMIT_MESSAGE" value="waitUntilLoading fuction Parentte" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

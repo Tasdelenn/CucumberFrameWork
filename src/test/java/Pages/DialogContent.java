@@ -68,9 +68,9 @@ public class DialogContent extends Parent{
 
     //Gerekirse Kullanmak İçin
     @FindBy(xpath = "//ms-text-field[@formcontrolname='budgetAccountIntegrationCode']/input")
-    private WebElement integrationCodeInput;
+    private WebElement integrationCode;
     @FindBy(xpath = "//ms-integer-field[@formcontrolname='priority']/input")
-    private WebElement priority;
+    private WebElement priorityCode;
 
     WebElement myElement;
     public void findAndSend(String strElement, String value){  // 2.aşama
@@ -83,7 +83,8 @@ public class DialogContent extends Parent{
             case "codeInput" : myElement =codeInput; break;
             case "shortName" : myElement =shortName; break;
             case "searchInput" : myElement =searchInput; break;
-            case "priority" : myElement =priority; break;
+            case "integrationCode" : myElement =integrationCode; break;
+            case "priorityCode" : myElement =priorityCode; break;
         }
 
         sendKeysFunction(myElement, value);

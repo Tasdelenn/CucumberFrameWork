@@ -52,5 +52,4 @@ public class Parent {
         wait.until(ExpectedConditions.numberOfElementsToBe(By.cssSelector("fuse-progress-bar > *"), 0));
     }
 
-
 }

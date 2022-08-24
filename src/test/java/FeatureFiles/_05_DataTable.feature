@@ -15,8 +15,8 @@ Feature: Datatable Functionality
       | addButton |
 
     And User sending the keys in Dialog content
-      | nameInput | country000 |
-      | codeInput | 1357908642 |
+      | nameInput | hakanya |
+      | codeInput | 121233  |
 
     And Click on the element in the Dialog
       | saveButton |
@@ -24,7 +24,7 @@ Feature: Datatable Functionality
     And Success message should be displayed
 
     And User delete item from Dialog
-      | country000 |
+      | hakanya |
 
     And Success message should be displayed
 
@@ -38,7 +38,7 @@ Feature: Datatable Functionality
       | addButton |
 
     And User sending the keys in Dialog content
-      | nameInput | naiton000 |
+      | nameInput | hakanmil |
 
     And Click on the element in the Dialog
       | saveButton |
@@ -46,14 +46,9 @@ Feature: Datatable Functionality
     And Success message should be displayed
 
     And User delete item from Dialog
-      | naiton000 |
+      | hakanmil |
 
     And Success message should be displayed
-
-
-    #    Senaryo Outline da verilen değerler için tüm senaryo her satır kadar tekrar çalıştırılıyordu.
-    #    DataTable da ise, sadece ilgili step için toplu veri gönderme imkanı oluşuyor.
-
 
   Scenario: Create a Fee, delete Fee
 
@@ -66,9 +61,10 @@ Feature: Datatable Functionality
       | addButton |
 
     And User sending the keys in Dialog content
-      | nameInput | fee000      |
-      | codeInput | f1357908642 |
-      | priority  | 49          |
+      | nameInput       | cash01 |
+      | codeInput       | 9001   |
+      | integrationCode | 1009   |
+      | priorityCode    | 43     |
 
     And Click on the element in the Dialog
       | saveButton |
@@ -76,7 +72,14 @@ Feature: Datatable Functionality
     And Success message should be displayed
 
     And User delete item from Dialog
-      | fee000 |
+      | cash01 |
 
     And Success message should be displayed
+
+
+
+
+    #    Senaryo Outline da verilen değerler için tüm senaryo her satır kadar tekrar çalıştırılıyordu.
+    #    DataTable da ise, sadece ilgili step için toplu veri gönderme imkanı oluşuyor.
+    #    TODO: Nurhayat String.class, Kaymakçı tablo yuklenmesini
 
