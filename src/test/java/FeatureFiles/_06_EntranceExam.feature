@@ -17,7 +17,7 @@ Feature: Entrance Exam Functionality
       | addButton |
 
     And User sending the keys in Dialog content
-      | nameInput | hakanSinav1 |
+      | nameInput | Vize Sınavı |
 
     And Click on the element in the Form Content
       | academicPeriod  |
@@ -29,6 +29,19 @@ Feature: Entrance Exam Functionality
 
     And Click on the element in the Dialog
       | saveButton |
+
+    Then Success message should be displayed
+
+    And Click on the element in the left Nav
+      | entranceExamsOne |
+      | setupTwo         |
+      | entranceExamsTwo |
+
+    #TODO Küçük ekran veya düşük çözünürlükte leftNavdaki linkler bazan yukarıda kalıyo, görünmüyo
+    #TODO mouse la scroll yapıca, başka müdahale olmadan devam ediyo
+
+    And User delete item from Dialog
+      | Vize Sınavı |
 
     Then Success message should be displayed
 

@@ -19,10 +19,11 @@ Feature:  Citizenship with scenario Outline
 
     Examples:
       | CitizenshipName | ShortName |
-      | vatan01         | das01     |
-      | vatan02         | das02     |
-      | vatan03         | das03     |
-      | vatan04         | das04     |
-      | vatan05         | das05     |
-
-
+      | arnavut         | arn       |
+      | gürcü           | gur       |
+      | macar           | mcr       |
+      | boşnak          | bsn       |
+      | slav            | rus       |
+    #Tükçe karakterle ne olacağını merak ettim... (sıkıntı yok)
+    #TODO arama sonucunda tek öğe çıkacağını varsaymış gibiyiz burda...
+    #TODO eğer aramamız iki,üç... vs sırada çıkarsa silemiyoruz !!!

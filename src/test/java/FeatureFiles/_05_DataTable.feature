@@ -15,8 +15,8 @@ Feature: Datatable Functionality
       | addButton |
 
     And User sending the keys in Dialog content
-      | nameInput | hakanya |
-      | codeInput | 121233  |
+      | nameInput | hakanYa |
+      | codeInput | 177333  |
 
     And Click on the element in the Dialog
       | saveButton |
@@ -24,7 +24,7 @@ Feature: Datatable Functionality
     And Success message should be displayed
 
     And User delete item from Dialog
-      | hakanya |
+      | hakanYa |
 
     And Success message should be displayed
 
@@ -38,7 +38,7 @@ Feature: Datatable Functionality
       | addButton |
 
     And User sending the keys in Dialog content
-      | nameInput | hakanmil |
+      | nameInput | boşnak |
 
     And Click on the element in the Dialog
       | saveButton |
@@ -46,7 +46,7 @@ Feature: Datatable Functionality
     And Success message should be displayed
 
     And User delete item from Dialog
-      | hakanmil |
+      | boşnak |
 
     And Success message should be displayed
 
@@ -61,10 +61,10 @@ Feature: Datatable Functionality
       | addButton |
 
     And User sending the keys in Dialog content
-      | nameInput       | cash01 |
-      | codeInput       | 9001   |
-      | integrationCode | 1009   |
-      | priorityCode    | 43     |
+      | nameInput       | hakanPay |
+      | codeInput       | p009988  |
+      | integrationCode | pay88    |
+      | priorityCode    | 314      |
 
     And Click on the element in the Dialog
       | saveButton |
@@ -72,14 +72,10 @@ Feature: Datatable Functionality
     And Success message should be displayed
 
     And User delete item from Dialog
-      | cash01 |
+      | hakanPay |
 
     And Success message should be displayed
 
-
-
-
     #    Senaryo Outline da verilen değerler için tüm senaryo her satır kadar tekrar çalıştırılıyordu.
     #    DataTable da ise, sadece ilgili step için toplu veri gönderme imkanı oluşuyor.
-    #    TODO: Nurhayat String.class, Kaymakçı tablo yuklenmesini
-
+    #    TODO: Kaymakçı tablo yuklenmesini

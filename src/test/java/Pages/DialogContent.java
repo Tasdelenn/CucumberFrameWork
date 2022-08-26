@@ -16,16 +16,15 @@ public class DialogContent extends Parent{
         PageFactory.initElements(GWD.getDriver(), this);
     }
 
-    @FindBy(xpath="//button[.='Accept all cookies']")
-    private WebElement acceptAllCookiesButton;
+    /******* Login Function *******/
     @FindBy(id="mat-input-0")
     private WebElement username;
-
     @FindBy(id="mat-input-1")
     private WebElement password;
-
     @FindBy(css="button[aria-label='LOGIN']")
     private WebElement loginButton;
+
+
 
     @FindBy(xpath="(//span[contains(text(),'Dashboard')])[2]")
     private WebElement dashboard;
@@ -35,6 +34,9 @@ public class DialogContent extends Parent{
 
     @FindBy(xpath="//ms-text-field[@formcontrolname='name']//input")
     private WebElement nameInput;
+
+    @FindBy(xpath="//ms-text-field[@placeholder=\"GENERAL.FIELD.NAME\"]/input")
+    private WebElement nameDelInput;
 
     @FindBy(xpath="//ms-text-field[@formcontrolname='code']//input")
     private WebElement codeInput;
@@ -54,7 +56,7 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//button[@aria-label='Close dialog']")
     private WebElement closeDialog;
 
-    @FindBy(xpath = "//ms-text-field[contains(@placeholder,'FIELD.NAME')]//input")
+    @FindBy(xpath = "(//div[contains(@class,'mat-form-field-infix ng-tns-c74')]//input)[1]")
     private WebElement searchInput;
 
     @FindBy(xpath = "//ms-search-button//button")
@@ -66,11 +68,14 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//span[contains(text(),'Delete')]")
     private WebElement deleteDialogBtn;
 
-    //Gerekirse Kullanmak İçin
-    @FindBy(xpath = "//ms-text-field[@formcontrolname='budgetAccountIntegrationCode']/input")
+    @FindBy(xpath = "//ms-text-field[@formcontrolname='budgetAccountIntegrationCode']//input")
     private WebElement integrationCode;
-    @FindBy(xpath = "//ms-integer-field[@formcontrolname='priority']/input")
+
+    @FindBy(xpath = "//ms-integer-field[@formcontrolname='priority']//input")
     private WebElement priorityCode;
+
+    @FindBy(xpath = "(//button[@class='consent-give'])[1]")
+    private WebElement acceptCookies;
 
     WebElement myElement;
     public void findAndSend(String strElement, String value){  // 2.aşama
@@ -80,6 +85,7 @@ public class DialogContent extends Parent{
             case "username" : myElement =username; break;
             case "password" : myElement =password; break;
             case "nameInput" : myElement =nameInput; break;
+            case "nameDelInput" : myElement =nameDelInput; break;   //Delete deki nameInput ile create deki nameInput locatoru farklı
             case "codeInput" : myElement =codeInput; break;
             case "shortName" : myElement =shortName; break;
             case "searchInput" : myElement =searchInput; break;
@@ -95,13 +101,14 @@ public class DialogContent extends Parent{
         switch (strElement)
         {
             case "loginButton" : myElement =loginButton; break;
-            case "acceptAllCookiesButton" : myElement = acceptAllCookiesButton; break;
             case "addButton" : myElement =addButton; break;
             case "saveButton" : myElement =saveButton; break;
             case "closeDialog" : myElement =closeDialog; break;
             case "searchButton" : myElement =searchButton; break;
             case "deleteButton" : myElement =deleteButton; break;
             case "deleteDialogBtn" : myElement =deleteDialogBtn; break;
+            case "acceptCookies" : myElement =acceptCookies; break;
+
         }
 
         clickFunction(myElement);
@@ -124,20 +131,20 @@ public class DialogContent extends Parent{
         findAndSend("searchInput", searchText); // aranacak kelimeyi kutucuğa gönder
         findAndClick("searchButton"); // arama butonuna bas
 
-//        WebDriverWait wait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(10));
-//        wait.until(ExpectedConditions.stalenessOf(deleteButton));
-
         waitUntilLoading();
 
-        //GWD.Bekle(2); // TODO: incelenecek // waitUntilLoading metodu oluşturuldu ve Parente alındı
         findAndClick("deleteButton");// silme butonua bas
         findAndClick("deleteDialogBtn");// dilogdaki silme butonuna bas
     }
 
-    public void waitUntilLoading() {
-        WebDriverWait wait=new WebDriverWait(GWD.driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.numberOfElementsToBe(By.cssSelector("fuse-progress-bar > *"), 0));
-    }
+
+
+
+
+
+
+
+
 
 
 

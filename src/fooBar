@@ -1,0 +1,21 @@
+feature 	    Özellik
+
+background	    Geçmiş
+
+scenario	    Örnek / Senaryo
+
+scenarioOutline	Senaryo taslağı
+
+examples	    Örnekler
+
+given	        *Diyelim ki
+
+when	        *Eğer ki
+
+then	        *O zaman
+
+and     	    *Ve
+
+but	            *Fakat / Ama
+
+rule	        Kural
