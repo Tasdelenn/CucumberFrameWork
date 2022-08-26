@@ -35,9 +35,9 @@ Feature: Fee Functionality
     And Success message should be displayed
 
     Examples:
-      | name | code   | intCode    | priority |
-      | Fee1 | 201091 | paypal     | 756543   |
-      | Fee2 | 201080 | applePay   | 766434   |
-      | Fee3 | 202371 | googlePay  | 756435   |
-      | Fee4 | 202361 | aliPay     | 756543   |
-      | Fee5 | 202351 | bestbuyPay | 756576   |
+      | name   | code   | intCode    | priority |
+      | Fee011 | 201091 | paypal     | 756543   |
+      | Fee022 | 201080 | applePay   | 766434   |
+      | Fee033 | 202371 | googlePay  | 756435   |
+      | Fee044 | 202361 | aliPay     | 756543   |
+      | Fee055 | 202351 | bestbuyPay | 756576   |
