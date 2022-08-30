@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdd563a4-aa9e-4abb-9349-a10640fe6ad5" name="Changes" comment="TODO Employe">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bdd563a4-aa9e-4abb-9349-a10640fe6ad5" name="Changes" comment="change fee name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_02_Country.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_02_Country.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultipleScenarios.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultipleScenarios.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_SenaryoOutlineCitizenShip.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_SenaryoOutlineCitizenShip.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_05_DataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_05_DataTable.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_06_EntranceExam.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_06_EntranceExam.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/FormContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/FormContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_CountrySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_CountrySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_CitizenshipSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_CitizenshipSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/_05_DatatableSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_05_DatatableSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,26 +68,7 @@
       <recent name="E:\GitArea\Cucumber_Kursu3\src\test\java\FeatureFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: _06_EntranceExam">
-    <configuration name="Feature: _03_CountryMultipleScenarios" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CountryMultipleScenarios.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Cucumber_Kursu3" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: _03_CountryMultipleScenarios" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Feature: _08_ScenarioOutlineDatatableFees">
     <configuration name="Feature: _04_SenaryoOutlineCitizenShip" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_SenaryoOutlineCitizenShip.feature" />
@@ -161,6 +126,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: _08_ScenarioOutlineDatatableFees" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_08_ScenarioOutlineDatatableFees.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber_Kursu3" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: _08_ScenarioOutlineDatatableFees" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Create a Nationality" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/_05_DataTable.feature" />
@@ -183,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: _08_ScenarioOutlineDatatableFees" />
         <item itemvalue="Cucumber Java.Scenario: Create a Nationality" />
         <item itemvalue="Cucumber Java.Feature: _06_EntranceExam" />
         <item itemvalue="Cucumber Java.Feature: _05_DataTable" />
         <item itemvalue="Cucumber Java.Feature: _04_SenaryoOutlineCitizenShip" />
-        <item itemvalue="Cucumber Java.Feature: _03_CountryMultipleScenarios" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661193503429</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="TODO Employe">
+      <created>1661505834451</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661505834451</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change fee name">
+      <created>1661513805878</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661513805878</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +305,9 @@
     <MESSAGE value="DataTable Dialog Content" />
     <MESSAGE value="DataTable list(list)) 2D" />
     <MESSAGE value="waitUntilLoading fuction Parentte" />
-    <option name="LAST_COMMIT_MESSAGE" value="waitUntilLoading fuction Parentte" />
+    <MESSAGE value="TODO Employe" />
+    <MESSAGE value="change fee name" />
+    <option name="LAST_COMMIT_MESSAGE" value="change fee name" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
